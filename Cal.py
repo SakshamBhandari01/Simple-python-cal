@@ -1,3 +1,4 @@
+# Code for a simple cal
 def add(P, Q):    
    # This function is used for adding two numbers   
    return P + Q   
@@ -18,6 +19,7 @@ print ("c. Multiply")
 print ("d. Divide")    
     
 choice = input("Please enter choice (a/ b/ c/ d): ")    
+choice = input("Please enter choice (a / b / c / d ): ")    
     
 num_1 = int (input ("Please enter the first number: "))    
 num_2 = int (input ("Please enter the second number: "))    
@@ -33,4 +35,3 @@ elif choice == 'c':
 elif choice == 'd':    
    print (num_1, " / ", num_2, " = ", divide(num_1, num_2))    
 else:    
-   print ("This is an invalid input")       print ("This is not a valid input")    
