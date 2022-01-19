@@ -18,7 +18,6 @@ print ("b. Subtract")
 print ("c. Multiply")    
 print ("d. Divide")    
     
-choice = input("Please enter choice (a/ b/ c/ d): ")    
 choice = input("Please enter choice (a / b / c / d ): ")    
     
 num_1 = int (input ("Please enter the first number: "))    
